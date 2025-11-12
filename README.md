@@ -2,11 +2,17 @@
 
 AI engineer & Computer Engineering + AI student @ HKUST, building agentic LLM systems for real-world products.
 
-> [!TIP]
-> I build **LLM + tools + workflows** so that teams can ship AI features faster:
-> - Agentic systems for **fashion-tech, fintech & analytics**
+> [!NOTE]
+> **I build LLM + tools + workflows so teams can ship AI features faster.**
+> - Agentic systems for **fashion-tech, fintech, and analytics**
 > - Practical **DSPy / LangChain / RAG** setups
-> - From prototype → production-ready apps
+> - Robust, production-ready apps and tooling
+
+## 🧑‍💻 Currently
+
+- **AI Engineer Intern @ Narrative AI** – building agentic workflows for a fashion-tech SaaS that turns design language into structured manufacturing specs at scale.
+- **Final-year Computer Engineering + AI @ HKUST** (grad 2026).
+- Maintaining open-source projects around **document workflows, agents, and finance tooling**.
 
 ---
 
@@ -49,11 +55,10 @@ AI engineer & Computer Engineering + AI student @ HKUST, building agentic LLM sy
 
 ---
 
-## 🧑‍💻 What I’m working on
-
-- **AI Engineer Intern @ Narrative AI** – agentic workflows for a fashion-tech SaaS that turns design language into structured manufacturing specs at scale.
-- **Final-year Computer Engineering + AI @ HKUST** (grad 2026).
-- Open-source projects around **document workflows, agents, and finance tooling**.
+## 🏅 Hackathon highlights
+- 🥉 APRU × Google Tech Policy Hackathon – AI-powered agricultural credit scoring (Agri-Access).
+- 🥇 Best Fintech & Most Innovative – PolyHack 2023.
+- 🥉 CBSA-Wisers Analytics Challenge @ HKUST – ESG sentiment & climate risk analytics.
 
 ---
 
@@ -72,18 +77,6 @@ AI engineer & Computer Engineering + AI student @ HKUST, building agentic LLM sy
 | Project | What it does | Tech |
 | ------ | ------------- | ---- |
 | [document-mcp](https://github.com/clchinkc/document-mcp) | PyPI package for large-scale Markdown/document tooling in MCP-based agents. | Python, MCP, uv, pytest |
-| [SecureEncoder](https://github.com/clchinkc/SecureEncoder) | Full-stack crypto encoder/decoder with CI, TDD and Dockerized setup. | Flask, React, TypeScript, Docker |
-
----
-
-## 🏅 Highlights
-
-- **AI Engineer Intern – Narrative AI** – fashion-tech agentic workflow system for 500+ monthly design requests.
-- **Fintech Intern – Chiyu Bank** – generative AI strategy + automation around MCRA transition.
-- **Backend Dev – USThing** – Node.js + MongoDB backend for a student app serving 4k+ users.
-- 🥉 APRU × Google Tech Policy Hackathon – AI-powered agricultural credit scoring (Agri-Access).
-- 🥇 Best Fintech & Most Innovative – PolyHack 2023.
-- 🥉 CBSA-Wisers Analytics Challenge @ HKUST – ESG sentiment & climate risk analytics.
 
 ---
 
