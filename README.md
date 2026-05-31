@@ -56,6 +56,12 @@ I build production AI systems, and I've learned a few things the hard way. If yo
   <img src="https://github-profile-trophy.vercel.app/?username=clchinkc&theme=onestar&no-frame=true&column=6&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/clchinkc/clchinkc/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/clchinkc/clchinkc/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/clchinkc/clchinkc/output/github-contribution-grid-snake.svg" />
+</picture>
+
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=clchinkc&style=flat-square&color=2563eb" alt="Profile views" />
 </p>
