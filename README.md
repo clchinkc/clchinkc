@@ -1,72 +1,61 @@
-# Hi, I'm Kevin 👋
+<p align="left">
+  <a href="https://github.com/clchinkc"><img src="https://img.shields.io/badge/AI-Engineer-2563eb?style=flat-square" /></a>
+  <a href="https://github.com/clchinkc/story-bench"><img src="https://img.shields.io/badge/evals-benchmark-8b5cf6?style=flat-square" /></a>
+  <a href="https://github.com/clchinkc/llm-cloud-inference"><img src="https://img.shields.io/badge/vLLM-production-059669?style=flat-square" /></a>
+</p>
+
+Hi, I'm Kevin.
 
 AI Engineer @ Narrative AI — building AI that helps fashion brands coordinate with their manufacturers without drowning in WhatsApp messages and Excel trackers.
 
-Computer Engineering + AI @ HKUST (grad 2026).
+HKUST Computer Engineering + AI. Based in Hong Kong.
 
-> [!NOTE]
-> I build production AI systems where the hard part isn't the model — it's designing the human-in-the-loop layer that makes AI proposals actually trustworthy enough for factory floors and brand offices to act on.
-
----
-
-## What I'm Working On
-
-**Narrative AI** — Coordination AI for fashion supply chains
-
-*Who it's for:* Brands and sourcing teams managing garments from sketch to ship.
-
-*What it does:* Replaces the chaos of fragmented emails, WhatsApp chats, and Excel trackers with a single operational surface where AI surfaces what needs attention — but humans stay in control of every decision.
-
-- AI reads incoming messages from factories and vendors, extracts what actually changes the status of an order, and proposes the right update
-- Humans review and approve — AI proposals become verified facts, not autonomous mutations
-- Over time, the system learns which factories are reliable, which materials cause problems, and which delays are systemic — so teams can act on signal instead of noise
+I build production AI systems, and I've learned a few things the hard way. If you can't measure whether your model is getting better or worse, you're guessing — I built a 34-task LLM-as-judge benchmark because "looks good to me" isn't a test suite. Agents that silently produce garbage when they get stuck are more dangerous than no agent at all, so I design failure recovery into agentic workflows from day one. And inference cost isn't a DevOps afterthought — it's a design constraint that shapes everything from model selection to deployment architecture.
 
 ---
 
-## Open Source
+## Projects
 
-| Project | What it does | Tech |
-|---------|-------------|------|
-| [document-mcp](https://github.com/clchinkc/document-mcp) | 26 MCP tools for large-scale document management | Python, MCP, uv, pytest |
-| [streamlit-editor](https://github.com/clchinkc/streamlit-editor) | LLM-powered editor for technical writing with DSPy + LangChain | Python, Streamlit, DSPy, LangChain |
-| [stockchat](https://github.com/clchinkc/stockchat) | DSPy-powered stock analysis agent with TA indicators and RAG | FastAPI, React, TypeScript, DSPy |
+| Project | What it does | Why I built it |
+|---------|-------------|----------------|
+| [story-bench](https://github.com/clchinkc/story-bench) | 34-task LLM narrative benchmark with a 3-model judge ensemble | Existing evals weren't catching the failure modes I care about |
+| [llm-cloud-inference](https://github.com/clchinkc/llm-cloud-inference) | Production vLLM serving Qwen3-8B-AWQ on Google Cloud Run | Wanted an OpenAI-compatible endpoint that scales to zero instead of idling at $2/hr |
+| [document-mcp](https://github.com/clchinkc/document-mcp) | 26 MCP tools for large-scale document management | Documents are the atomic unit of most business workflows — needed structured ops on unstructured content |
+| [stockchat](https://github.com/clchinkc/stockchat) | DSPy-powered stock analysis agent with RAG and technical indicators | Built to explore DSPy's optimization pipeline on a real domain with messy data |
 
----
-
-## Tech I Use
-
-**AI & Agents**
-LangGraph · DSPy · PyTorch · Multi-provider LLM orchestration (OpenAI / Anthropic / Gemini / OpenRouter)
-
-**Backend**
-FastAPI · Next.js · Node.js
-
-**Infra**
-Vercel · Google Cloud · Docker · GitHub Actions
-
-**Protocols**
-MCP (Model Context Protocol) — built production MCP server with OAuth integration
-
----
-
-## Recognition
-
-- 🥉 **APRU × Google Tech Policy Hackathon 2025** — AI-powered agricultural credit scoring (Agri-Access: NASA Prithvi + SHAP explainability)
-
----
-
-## 📊 GitHub Stats
+### Toolbox
 
 <p align="left">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=clchinkc&show_icons=true&theme=transparent&hide_border=true" alt="Kevin's GitHub stats" height="165" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=clchinkc&layout=compact&theme=transparent&hide_border=true" alt="Top languages" height="165" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1.0-2563eb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/vLLM-production-059669?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-protocol-8b5cf6?style=for-the-badge" />
 </p>
 
 ---
 
-## 🤝 Connect
+## Hackathons
 
-- 📫 Email: **chilonchin@gmail.com**
-- 💼 LinkedIn: **[linkedin.com/in/clchinkc](https://www.linkedin.com/in/clchinkc/)**
+- APRU × Google Tech Policy Hackathon 2025 — AI-powered agricultural credit scoring with NASA satellite imagery and SHAP explainability
 
-**Always happy to chat about**: agentic workflows, human-in-the-loop AI systems, fashion-tech, supply chain coordination, and shipping production ML.
+---
+
+## Get in touch
+
+- Email: chilonchin@gmail.com
+- LinkedIn: [linkedin.com/in/clchinkc](https://www.linkedin.com/in/clchinkc/)
+
+---
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=clchinkc&theme=onestar&no-frame=true&column=6&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" />
+</p>
+
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=clchinkc&style=flat-square&color=2563eb" alt="Profile views" />
+</p>
