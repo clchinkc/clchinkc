@@ -10,7 +10,8 @@ AI Engineer @ Narrative AI — building AI that helps fashion brands coordinate 
 
 HKUST Computer Engineering + AI. Based in Hong Kong.
 
-I build production AI systems, and I've learned a few things the hard way. If you can't measure whether your model is getting better or worse, you're guessing — I built a 34-task LLM-as-judge benchmark because "looks good to me" isn't a test suite. Agents that silently produce garbage when they get stuck are more dangerous than no agent at all, so I design failure recovery into agentic workflows from day one. And inference cost isn't a DevOps afterthought — it's a design constraint that shapes everything from model selection to deployment architecture.
+> [!NOTE]
+> I build production AI systems, and I've learned a few things the hard way. If you can't measure whether your model is getting better or worse, you're guessing — I built a 34-task LLM-as-judge benchmark because "looks good to me" isn't a test suite. Agents that silently produce garbage when they get stuck are more dangerous than no agent at all, so I design failure recovery into agentic workflows from day one. And inference cost isn't a DevOps afterthought — it's a design constraint that shapes everything from model selection to deployment architecture.
 
 ---
 
